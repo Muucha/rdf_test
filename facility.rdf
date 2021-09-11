@@ -7,7 +7,7 @@
 	xmlns:skosthes="http://purl.org/iso25964/skos-thes#"
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 	xmlns:qb="http://purl.org/linked-data/cube#"
-	xmlns:bp="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#"
+	xmlns:bp="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#"
 	xmlns:dct="http://purl.org/dc/terms/"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xmlns:sh="http://www.w3.org/ns/shacl#"
@@ -24,60 +24,60 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#建物センシングデータプロファイル型">
+<rdf:Description rdf:about="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#建物センシングデータプロファイル型">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<sh:targetClass rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#建物センシングデータプロファイル型"/>
+	<sh:targetClass rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#建物センシングデータプロファイル型"/>
 	<rdfs:label xml:lang="ja">建物センシングデータプロファイル型</rdfs:label>
 	<rdfs:subClassOf rdf:resource="http://imi.go.jp/ns/core/rdf#事物型"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:property rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P10"/>
-	<sh:property rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P11"/>
-	<sh:property rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P12"/>
-	<sh:property rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P13"/>
+	<sh:property rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P10"/>
+	<sh:property rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P11"/>
+	<sh:property rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P12"/>
+	<sh:property rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P13"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#建物センシング型">
+<rdf:Description rdf:about="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#建物センシング型">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<sh:targetClass rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#建物センシング型"/>
+	<sh:targetClass rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#建物センシング型"/>
 	<rdfs:label xml:lang="ja">建物センシング型</rdfs:label>
 	<rdfs:subClassOf rdf:resource="http://imi.go.jp/ns/core/rdf#事物型"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:property rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P16"/>
-	<sh:property rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P17"/>
-	<sh:property rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P18"/>
+	<sh:property rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P16"/>
+	<sh:property rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P17"/>
+	<sh:property rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P18"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#センシング結果型">
+<rdf:Description rdf:about="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#センシング結果型">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<sh:targetClass rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#センシング結果型"/>
+	<sh:targetClass rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#センシング結果型"/>
 	<rdfs:label xml:lang="ja">センシング結果型</rdfs:label>
 	<rdfs:subClassOf rdf:resource="http://imi.go.jp/ns/core/rdf#事物型"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:property rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P21"/>
-	<sh:property rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P22"/>
-	<sh:property rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P23"/>
-	<sh:property rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P24"/>
-	<sh:property rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P25"/>
-	<sh:property rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P26"/>
+	<sh:property rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P21"/>
+	<sh:property rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P22"/>
+	<sh:property rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P23"/>
+	<sh:property rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P24"/>
+	<sh:property rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P25"/>
+	<sh:property rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P26"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P10">
+<rdf:Description rdf:about="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P10">
 	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
-	<sh:path rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#建物センシング"/>
+	<sh:path rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#建物センシング"/>
 	<sh:name xml:lang="ja">建物センシング</sh:name>
 	<sh:description xml:lang="ja">建物センシングデータに関する情報を示す。</sh:description>
 	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
 	<sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-	<sh:class rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#建物センシング型"/>
+	<sh:class rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#建物センシング型"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P11">
+<rdf:Description rdf:about="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P11">
 	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
-	<sh:path rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#センシング対象"/>
+	<sh:path rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#センシング対象"/>
 	<sh:name xml:lang="ja">センシング対象</sh:name>
 	<sh:description xml:lang="ja">建物センシングデータの対象（建物）に関する情報を示す。</sh:description>
 	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
@@ -86,20 +86,20 @@
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P12">
+<rdf:Description rdf:about="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P12">
 	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
-	<sh:path rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#センシング結果"/>
+	<sh:path rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#センシング結果"/>
 	<sh:name xml:lang="ja">センシング結果</sh:name>
 	<sh:description xml:lang="ja">建物センシングデータのセンシング結果を示す。（最大3件まで）</sh:description>
 	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
 	<sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</sh:maxCount>
-	<sh:class rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#センシング結果型"/>
+	<sh:class rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#センシング結果型"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P13">
+<rdf:Description rdf:about="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P13">
 	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
-	<sh:path rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#備考"/>
+	<sh:path rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#備考"/>
 	<sh:name xml:lang="ja">備考</sh:name>
 	<sh:description xml:lang="ja">建物センシングデータの備考を示す。</sh:description>
 	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
@@ -108,9 +108,9 @@
 	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P16">
+<rdf:Description rdf:about="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P16">
 	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
-	<sh:path rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#機器管理者"/>
+	<sh:path rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#機器管理者"/>
 	<sh:name xml:lang="ja">機器管理者</sh:name>
 	<sh:description xml:lang="ja">建物センシングに使用した機器の管理者（法人）を示す。</sh:description>
 	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
@@ -119,9 +119,9 @@
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P17">
+<rdf:Description rdf:about="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P17">
 	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
-	<sh:path rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#測定日"/>
+	<sh:path rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#測定日"/>
 	<sh:name xml:lang="ja">測定日</sh:name>
 	<sh:description xml:lang="ja">建物センシングデータの取得日を示す。</sh:description>
 	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
@@ -130,9 +130,9 @@
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P18">
+<rdf:Description rdf:about="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P18">
 	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
-	<sh:path rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#センシング方法"/>
+	<sh:path rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#センシング方法"/>
 	<sh:name xml:lang="ja">センシング方法</sh:name>
 	<sh:description xml:lang="ja">建物センシングデータのセンシング方法に該当するコードを示す。</sh:description>
 	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
@@ -141,9 +141,9 @@
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P21">
+<rdf:Description rdf:about="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P21">
 	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
-	<sh:path rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#結果No"/>
+	<sh:path rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#結果No"/>
 	<sh:name xml:lang="ja">結果No</sh:name>
 	<sh:description xml:lang="ja">センシング結果の通番を示す。</sh:description>
 	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
@@ -152,9 +152,9 @@
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P22">
+<rdf:Description rdf:about="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P22">
 	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
-	<sh:path rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#部屋の名称"/>
+	<sh:path rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#部屋の名称"/>
 	<sh:name xml:lang="ja">部屋の名称</sh:name>
 	<sh:description xml:lang="ja">センシング対象である部屋の名称を示す。</sh:description>
 	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
@@ -163,9 +163,9 @@
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P23">
+<rdf:Description rdf:about="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P23">
 	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
-	<sh:path rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#部屋の階数"/>
+	<sh:path rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#部屋の階数"/>
 	<sh:name xml:lang="ja">部屋の階数</sh:name>
 	<sh:description xml:lang="ja">センシング対象である部屋がある階数を示す。</sh:description>
 	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
@@ -174,9 +174,9 @@
 	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P24">
+<rdf:Description rdf:about="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P24">
 	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
-	<sh:path rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#センサー設置位置"/>
+	<sh:path rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#センサー設置位置"/>
 	<sh:name xml:lang="ja">センサー設置位置</sh:name>
 	<sh:description xml:lang="ja">センシング結果を得たセンサーの設置位置を示す。</sh:description>
 	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
@@ -185,9 +185,9 @@
 	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P25">
+<rdf:Description rdf:about="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P25">
 	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
-	<sh:path rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#室温"/>
+	<sh:path rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#室温"/>
 	<sh:name xml:lang="ja">室温</sh:name>
 	<sh:description xml:lang="ja">センシング結果のうち、室温の値を示す。</sh:description>
 	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
@@ -196,9 +196,9 @@
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#P26">
+<rdf:Description rdf:about="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#P26">
 	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
-	<sh:path rdf:resource="https://github.com/Muucha/rdf_test/blob/main/facility.rdf#湿度"/>
+	<sh:path rdf:resource="https://raw.githubusercontent.com/Muucha/rdf_test/main/facility.rdf#湿度"/>
 	<sh:name xml:lang="ja">湿度</sh:name>
 	<sh:description xml:lang="ja">センシング結果のうち、湿度の値を示す。</sh:description>
 	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
